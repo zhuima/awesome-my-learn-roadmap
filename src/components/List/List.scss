@@ -1,73 +1,73 @@
-.container {
-  display: flex; /* or inline-flex */
-  // align-items: stretch;
-  // margin: 20px;
-
-}
-
-.tab {
-  font-size: 20px;
-  padding: 10px 10px;
-  opacity: 0.6;
-  background: white;
-  // justify-content: flex-start;
-  margin: 10px;
-}
-
-.active {
-  color: #0b5ed7 !important;
-  font-weight: bold;
-  border-bottom: 2px solid #0b5ed7;
-}
-
-
-
-.items {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  color: white;
-  .item {
-    flex: 1;
-    background: blue;
-    margin: 20px;
-    height: 80px;
-    width: calc((100% - 10px) / 6);
-    min-width: calc((100% - 10px) / 6);
-    max-width: calc((100% - 10px) / 6);
-    font-weight: bold;
-    display: grid;
-    place-items: center;
-    align-content: center;
-    &:nth-child(1) {
-      background: blue;
-    }
-    &:nth-child(2) {
-      background: red;
-    }
-    &:nth-child(3) {
-      background: pink;
-    }
-    &:nth-child(4) {
-      background: orange;
-    }
-    &:nth-child(5) {
-      background: rgb(213, 28, 173);
-    }
-    &:nth-child(6) {
-      background: rgb(13, 12, 13);
-    }
-    a {
-      color: white;
-      text-decoration: none;
-      text-align: center;
-    }
-    span {
-      color: rgb(15, 3, 3);
-      font-size: 12px;
-      float: left;
-      width: 100%;
-      text-align: left;
-    }
-  }
-}
+        .container {
+            display: flex;
+            /* or inline-flex */
+            // align-items: stretch;
+        }
+        
+        .tab {
+            font-size: 20px;
+            padding: 10px 10px;
+            opacity: 0.6;
+            background: white;
+            // justify-content: flex-start;
+            margin: 10px;
+        }
+        
+        .active {
+            color: #0b5ed7 !important;
+            font-weight: bold;
+            border-bottom: 2px solid #0b5ed7;
+        }
+        
+        .items {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            color: white;
+            .item {
+                flex: 1;
+                background: blue;
+                margin: 20px;
+                height: 80px;
+                width: calc((100% - 10px) / 6);
+                min-width: calc((100% - 10px) / 6);
+                max-width: calc((100% - 10px) / 6);
+                font-weight: bold;
+                display: grid;
+                place-items: center;
+                align-content: center;
+                &:nth-child(1) {
+                    background: blue;
+                }
+                &:nth-child(2) {
+                    background: red;
+                }
+                &:nth-child(3) {
+                    background: pink;
+                }
+                &:nth-child(4) {
+                    background: orange;
+                }
+                &:nth-child(5) {
+                    background: rgb(213, 28, 173);
+                }
+                &:nth-child(6) {
+                    background: rgb(13, 12, 13);
+                }
+                a {
+                    color: white;
+                    text-decoration: none;
+                    text-align: center;
+                }
+                span {
+                    color: rgb(15, 3, 3);
+                    font-size: 12px;
+                    float: left;
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+            .item:hover  {
+                transform: scale(1.5);
+            }
+        }
