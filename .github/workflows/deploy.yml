@@ -24,8 +24,8 @@ jobs:
       - name: build
         shell: bash
         run: |
-          yarn
-          yarn run build
+          npm install
+          npm run build
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
