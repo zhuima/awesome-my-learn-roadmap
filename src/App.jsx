@@ -1,6 +1,7 @@
 import React from 'react'
 import data from './data/data.json'
 import Items from './components/List/List'
+import Footer from './components/Footer/Footer'
 import './App.scss'
 
 function App() {
@@ -638,6 +639,7 @@ function App() {
       </h6>
 
       <Items data={data} />
+      <Footer />
     </div>
   )
 }
