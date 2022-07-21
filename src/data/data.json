@@ -19,7 +19,8 @@
       "tit":"站点",
       "content":[
         {"msg":" Open Fullstack ｜ 🌟🌟🌟🌟","href": "https://fullstackopen.com/" ,"comments":"Full stack open 2022"},
-        {"msg":" LogRocket Blog ｜ 🌟🌟🌟","href": "https://blog.logrocket.com/" ,"comments":"For Frontend Developers and Web App Engineers"}
+        {"msg":" LogRocket Blog ｜ 🌟🌟🌟","href": "https://blog.logrocket.com/" ,"comments":"For Frontend Developers and Web App Engineers"},
+        {"msg":" DEV Community  ｜ 🌟🌟🌟🌟🌟","href": "https://dev.to/" ,"comments":"A constructive and inclusive social network for software developers. With you every step of your journey."}
       ]
     }
   ]
