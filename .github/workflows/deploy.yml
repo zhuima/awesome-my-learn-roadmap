@@ -4,12 +4,13 @@
 name: "Deploy CI"
  
 on:
-  workflow_dispatch:
-    inputs:
-      ref:
-        description: branch|tag|SHA to checkout
-        default: 'main'
-        required: true
+ release:
+   types:
+     - published
+ push:
+   branches:
+     - main
+
 
 jobs:
   deploy:
