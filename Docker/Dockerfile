@@ -8,5 +8,5 @@ COPY ../ .
 RUN npm run build
 
 FROM nginx:1.18-alpine
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY ./Docker/nginx.conf /etc/nginx/nginx.conf
 COPY --from=build-step /build/dist /frontend/build
