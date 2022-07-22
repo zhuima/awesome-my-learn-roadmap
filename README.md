@@ -1,32 +1,25 @@
 awesome my learn roadmap
 ------------------------
 
+你可以选择在线访问 [在线预览](https://awesome-my-learn-roadmap.vercel.app/)
+
+[![](https://img.shields.io/badge/vitejs-vitejs-brightgreen.svg)](https://vitejs.dev/) [![](https://img.shields.io/badge/reactjs-18.2.0-brightgreen.svg)](https://reactjs.org/)
+
+
+# 关于本项目
+
+日常查看文档的时候，会碰到不少让人眼前一亮的文档，想保存起来，也想分享给更多的人看，正好在学习react，就那这个简单练手，项目本身比较简单，大家有什么需求可以提，或者一块来完善
 
 
 
-你可以在线访问 [在线预览](https://awesome-my-learn-roadmap.vercel.app/)
+# 本地部署
+
+下载对应的 Docekr 镜像，本地直接启动即可
 
 
+# TODO
 
+- [ ] 集成 Tailwind CSS，当前是自己写css, 样式不美观
+- [ ] 改成 React Typescript
+- [ ] 要不要用Express 或 NestJS 自己撸一个后端出来，😂
 
-# Article
-
-[Series Article | July 31, 2021 Publish](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications)
-
-[A Guide for a Complete Project | NOVEMBER 22, 2021 Publish](https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/)
-[How to read local JSON files in React.js?](https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7)
-
-[A Guide for a Complete Project | NOVEMBER 22, 2021 Publish](https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/)
-
-
-# WebSite
-
-[logrocket](https://blog.logrocket.com/)
-
-[fullstack | 2022 Publish](https://fullstackopen.com/)
-
-
-
-# Video
-
-[Understanding TypeScript - 2022 Edition](https://www.udemy.com/course/understanding-typescript/)
