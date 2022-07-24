@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 import './List.scss'
 const ItemDetails = ({ items }) => {
   return (
     <div className="items">
       {items.map((item, index) => {
-        let { msg, href, comments } = item
+        const { msg, href } = item
         return (
           <div key={index} className="item">
             <a href={href}>

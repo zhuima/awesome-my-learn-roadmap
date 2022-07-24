@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+/* eslint-disable react/prop-types */
+import React, { useState } from 'react'
 import ItemDetails from './ListDetails'
 import './List.scss'
 
@@ -11,7 +12,7 @@ const Items = ({ data }) => {
       <>
         <div className="container">
           {data.map((domain, index) => {
-            let { tit, content } = domain
+            const { tit, content } = domain
             return (
               <div
                 className={`container tab ${active === index ? 'active' : ''}`}

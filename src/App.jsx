@@ -1,10 +1,26 @@
 import React from 'react'
+import TextTransition, { presets } from 'react-text-transition'
 import data from './data/data.json'
 import Items from './components/List/List'
 import Footer from './components/Footer/Footer'
 import './App.scss'
 
 function App() {
+  const [index, setIndex] = React.useState(0)
+  const TEXTS = [
+    '欢迎提交你认为的优质站点或文档',
+    '日常收集优质站点',
+    '期待你的参与',
+  ]
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      5000 // every 3 seconds
+    )
+    return () => clearTimeout(intervalId)
+  }, [])
+
   return (
     <div className="App">
       <h6 className="statistical_h6">
@@ -634,8 +650,11 @@ function App() {
           alt=""
           data-v-37dfd6fc=""
         />
-
-        <span>日常收集优质站点</span>
+        <span>
+          <TextTransition springConfig={presets.slow} className="big" inline>
+            {TEXTS[index % TEXTS.length]}
+          </TextTransition>
+        </span>
       </h6>
 
       <Items data={data} />
