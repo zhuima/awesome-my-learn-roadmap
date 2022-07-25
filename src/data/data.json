@@ -12,7 +12,9 @@
     {
       "tit":"视频",
       "content":[
-        {"msg":"Understanding TypeScript - 2022 Edition","href": "https://www.udemy.com/course/understanding-typescript/" ,"s":"运营后台","className":"b01"}
+        {"msg":"Understanding TypeScript - 2022 Edition","href": "https://www.udemy.com/course/understanding-typescript/" , "comments":""},
+        {"msg":"React JS Crash Course","href": "https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia" , "comments":"学React的时候可以顺道学习英语"},
+        {"msg":"React Course - Beginner's Tutorial for React JavaScript Library [2022]","href": "https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org" , "comments":"freeCodeCamp出品，必属精品"}
 
       ]
     },
@@ -22,7 +24,8 @@
         {"msg":" Open Fullstack ｜ 🌟🌟🌟🌟","href": "https://fullstackopen.com/" ,"comments":"Full stack open 2022"},
         {"msg":" LogRocket Blog ｜ 🌟🌟🌟","href": "https://blog.logrocket.com/" ,"comments":"For Frontend Developers and Web App Engineers"},
         {"msg":" DEV Community  ｜ 🌟🌟🌟🌟🌟","href": "https://dev.to/" ,"comments":"A constructive and inclusive social network for software developers. With you every step of your journey."},
-        {"msg":" Search React Examples  ｜ 🌟🌟🌟🌟🌟","href": "https://codesandbox.io/examples" ,"comments":"CodeSandbox: Online Code Editor and IDE for Rapid Web Development."}
+        {"msg":" Search React Examples  ｜ 🌟🌟🌟🌟🌟","href": "https://codesandbox.io/examples" ,"comments":"CodeSandbox: Online Code Editor and IDE for Rapid Web Development."},
+        {"msg":" Learn to Code with Interactive Tutorials  ｜ 🌟🌟🌟🌟🌟","href": "https://scrimba.com/" ,"comments":"Learn to Code with Interactive Tutorials - Scrimba.com"}
       ]
     },
     {
