@@ -10,12 +10,12 @@ const Items = ({ data }) => {
   if (data) {
     return (
       <>
-        <div className="container">
+        <div className="tabview">
           {data.map((domain, index) => {
             const { tit, content } = domain
             return (
               <div
-                className={`container tab ${active === index ? 'active' : ''}`}
+                className={`tab ${active === index ? 'active' : ''}`}
                 key={index}
                 accessKey={index}
                 onClick={() => {
@@ -23,12 +23,19 @@ const Items = ({ data }) => {
                   setItems(content)
                 }}
               >
-                <span>{tit}</span>
+                <span>{tit}
+
+                </span>
+
               </div>
+
             )
           })}
         </div>
-        <ItemDetails items={items} />
+        <div className="items">
+
+          <ItemDetails items={items} />
+        </div>
       </>
     )
   } else {

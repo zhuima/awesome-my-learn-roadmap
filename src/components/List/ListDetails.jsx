@@ -3,7 +3,7 @@ import React from 'react'
 import './List.scss'
 const ItemDetails = ({ items }) => {
   return (
-    <div className="items">
+    <>
       {items.map((item, index) => {
         const { msg, href } = item
         return (
@@ -14,7 +14,7 @@ const ItemDetails = ({ items }) => {
           </div>
         )
       })}
-    </div>
+    </>
   )
 }
 

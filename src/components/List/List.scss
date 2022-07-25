@@ -1,9 +1,13 @@
-        .container {
-            display: flex;
-            /* or inline-flex */
-            // align-items: stretch;
-        }
+        // .container {
+        //     display: flex;
+        //     /* or inline-flex */
+        //     // align-items: stretch;
+        // }
         
+                .tabview {
+                    display: flex;    
+                }
+
         .tab {
             font-size: 20px;
             padding: 10px 10px;
@@ -20,7 +24,7 @@
         }
         
         .items {
-            display: flex;
+            display: inline-flex;
             width: 100%;
             flex-wrap: wrap;
             color: white;
