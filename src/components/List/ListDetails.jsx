@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import './List.scss'
+import './index.scss'
 const ItemDetails = ({ items }) => {
   return (
     <>
