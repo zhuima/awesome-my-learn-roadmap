@@ -2,22 +2,23 @@
     {
       "tit":"文档",
       "content":[
-        {"msg":"React Series Article","href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications" ,"comments":"React Series Article"},
-        {"msg":"A Guide for a Complete Project","href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/" ,"comments":"A Guide for a Complete Project"},
-        {"msg":"How to read local JSON files in React.js","href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7" ,"comments":"How to read local JSON files in React.js"},
-        {"msg":"Build a Kubernetes Operator in 10 Minutes","href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30" ,"comments":""},
-        {"msg":"TailwindCSS 资源推荐","href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw" ,"comments":"大多数都是直接复制粘贴的组件，推荐都看看"},
-        {"msg":"300+ React Interview Questions ","href": "https://dev.to/sakhnyuk/300-react-interview-questions-2ko4" ,"comments":"300+ React Interview Questions, 内容详尽，五星好评"},
-        {"msg":"React component guide: Class vs functional","href": "https://www.educative.io/blog/react-component-class-vs-functional" ,"comments":"React component guide: Class vs functional"}
+        {"msg":"React Series Article","href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications" ,"comments":"React Series Article", "type":"react"},
+        {"msg":"A React Guide for a Complete Project","href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/" ,"comments":"A Guide for a Complete Project", "type":"react"},
+        {"msg":"How to read local JSON files in React.js","href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7" ,"comments":"How to read local JSON files in React.js", "type":"react"},
+        {"msg":"Build a Kubernetes Operator in 10 Minutes","href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30" ,"comments":"", "type":"k8s, kubernetes"},
+        {"msg":"TailwindCSS 资源推荐","href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw" ,"comments":"大多数都是直接复制粘贴的组件，推荐都看看", "type":"tailwindcss"},
+        {"msg":"300+ React Interview Questions ","href": "https://dev.to/sakhnyuk/300-react-interview-questions-2ko4" ,"comments":"300+ React Interview Questions, 内容详尽，五星好评", "type":"react"},
+        {"msg":"React component guide: Class vs functional","href": "https://www.educative.io/blog/react-component-class-vs-functional" ,"comments":"React component guide: Class vs functional", "type":"react"},
+        {"msg":"useEffect 完整指南","href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/" ,"comments":"useEffect 完整指南", "type":"react"}
 
       ]
     },
     {
       "tit":"视频",
       "content":[
-        {"msg":"Understanding TypeScript - 2022 Edition","href": "https://www.udemy.com/course/understanding-typescript/" , "comments":""},
-        {"msg":"React JS Crash Course","href": "https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia" , "comments":"学React的时候可以顺道学习英语"},
-        {"msg":"React Course - Beginner's Tutorial for React JavaScript Library [2022]","href": "https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org" , "comments":"freeCodeCamp出品，必属精品"}
+        {"msg":"Understanding TypeScript - 2022 Edition","href": "https://www.udemy.com/course/understanding-typescript/" , "comments":"", "type":"typescript"},
+        {"msg":"React JS Crash Course","href": "https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia" , "comments":"学React的时候可以顺道学习英语", "type":"react"},
+        {"msg":"React Course - Beginner's Tutorial for React JavaScript Library [2022]","href": "https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org" , "comments":"freeCodeCamp出品，必属精品", "type":"react"}
 
       ]
     },
@@ -37,8 +38,8 @@
     {
       "tit": "公众号",
       "content": [
-        {"msg":"堆栈future", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUzMTUxMzYyNQ==&scene=124#wechat_redirect", "comments": "使很多处于迷茫阶段的coder能从这里找到光明，堆栈创世，功在当代，利在千秋"},
-        {"msg":"链上追马", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2ODc0MDcxMA==&scene=124#wechat_redirect", "comments": "发现并分享有趣，有创意，免费、好用的工具或个人认为有价值的信息"}
+        {"msg":"堆栈future", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUzMTUxMzYyNQ==&scene=124#wechat_redirect", "comments": "使很多处于迷茫阶段的coder能从这里找到光明，堆栈创世，功在当代，利在千秋", "type":"技术"},
+        {"msg":"链上追马", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2ODc0MDcxMA==&scene=124#wechat_redirect", "comments": "发现并分享有趣，有创意，免费、好用的工具或个人认为有价值的信息", "type":"资源分享"}
       ]
     }
   ]
