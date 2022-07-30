@@ -2,6 +2,7 @@
     {
       "tit":"文档",
       "content":[
+        {"msg":"best practices for react","href": "https://www.freecodecamp.org/news/best-practices-for-react/" ,"comments":"best practices for react", "type":"react"},
         {"msg":"React Series Article","href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications" ,"comments":"React Series Article", "type":"react"},
         {"msg":"A React Guide for a Complete Project","href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/" ,"comments":"A Guide for a Complete Project", "type":"react"},
         {"msg":"How to read local JSON files in React.js","href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7" ,"comments":"How to read local JSON files in React.js", "type":"react"},
@@ -9,7 +10,8 @@
         {"msg":"TailwindCSS 资源推荐","href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw" ,"comments":"大多数都是直接复制粘贴的组件，推荐都看看", "type":"tailwindcss"},
         {"msg":"300+ React Interview Questions ","href": "https://dev.to/sakhnyuk/300-react-interview-questions-2ko4" ,"comments":"300+ React Interview Questions, 内容详尽，五星好评", "type":"react"},
         {"msg":"React component guide: Class vs functional","href": "https://www.educative.io/blog/react-component-class-vs-functional" ,"comments":"React component guide: Class vs functional", "type":"react"},
-        {"msg":"useEffect 完整指南","href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/" ,"comments":"useEffect 完整指南", "type":"react"}
+        {"msg":"a complete guide to useeffect","href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/" ,"comments":"a complete guide to useeffect", "type":"react"}
+
 
       ]
     },
