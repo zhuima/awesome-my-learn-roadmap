@@ -3,6 +3,7 @@
       "tit":"文档",
       "content":[
         {"msg":"best practices for react","href": "https://www.freecodecamp.org/news/best-practices-for-react/" ,"comments":"best practices for react", "type":"react"},
+        {"msg":"Learn Go: The complete course","href": "https://kps.hashnode.dev/learn-go-the-complete-course" ,"comments":"Learn Go: The complete course", "type":"golang"},
         {"msg":"React Series Article","href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications" ,"comments":"React Series Article", "type":"react"},
         {"msg":"A React Guide for a Complete Project","href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/" ,"comments":"A Guide for a Complete Project", "type":"react"},
         {"msg":"How to read local JSON files in React.js","href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7" ,"comments":"How to read local JSON files in React.js", "type":"react"},
