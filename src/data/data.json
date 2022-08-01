@@ -46,5 +46,11 @@
         {"msg":"堆栈future", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUzMTUxMzYyNQ==&scene=124#wechat_redirect", "comments": "使很多处于迷茫阶段的coder能从这里找到光明，堆栈创世，功在当代，利在千秋", "type":"技术"},
         {"msg":"链上追马", "href": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2ODc0MDcxMA==&scene=124#wechat_redirect", "comments": "发现并分享有趣，有创意，免费、好用的工具或个人认为有价值的信息", "type":"资源分享"}
       ]
+    },
+    {
+      "tit": "书籍",
+      "content": [
+        {"msg":"深入解析CSS", "href": "https://weread.qq.com/web/bookDetail/7d53223071e219457d53617", "comments": "高评分CSS书籍，一定能让你有所收获", "type":"书籍"}
+      ]
     }
   ]
