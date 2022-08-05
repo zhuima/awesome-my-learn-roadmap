@@ -11,7 +11,9 @@
         {"msg":"TailwindCSS 资源推荐","href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw" ,"comments":"大多数都是直接复制粘贴的组件，推荐都看看", "type":"tailwindcss"},
         {"msg":"300+ React Interview Questions ","href": "https://dev.to/sakhnyuk/300-react-interview-questions-2ko4" ,"comments":"300+ React Interview Questions, 内容详尽，五星好评", "type":"react"},
         {"msg":"React component guide: Class vs functional","href": "https://www.educative.io/blog/react-component-class-vs-functional" ,"comments":"React component guide: Class vs functional", "type":"react"},
-        {"msg":"a complete guide to useeffect","href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/" ,"comments":"a complete guide to useeffect", "type":"react"}
+        {"msg":"a complete guide to useeffect","href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/" ,"comments":"a complete guide to useeffect", "type":"react"},
+        {"msg":"Welcome to My First NFT | 五星推荐","href": "https://myfirstnft.info/" ,"comments":"Welcome to My First NFT | 五星推荐", "type":"nft,web3"},
+        {"msg":"15 days of Web3 ｜ 五星推荐","href": "https://www.blocktrain.info/blog/15-days-of-web3" ,"comments":"15 days of Web3 ｜ 五星推荐", "type":"web3"}
 
 
       ]
