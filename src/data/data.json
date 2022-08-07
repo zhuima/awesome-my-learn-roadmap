@@ -39,7 +39,8 @@
         {"msg":"Tutorials | DigitalOcean","href": "https://www.digitalocean.com/community/tutorials" ,"comments":"Tutorials | DigitalOcean"},
         {"msg":"BLOGS - CODING MASTER","href": "https://codingmasterweb.com/" ,"comments":"BLOGS - CODING MASTER"},
         {"msg":"daily.dev | Where developers grow together","href": "https://daily.dev/" ,"comments":"daily.dev | Where developers grow together"},
-        {"msg":"Dev Community - DevDojo","href": "https://devdojo.com/" ,"comments":"Dev Community - DevDojo"}
+        {"msg":"Dev Community - DevDojo","href": "https://devdojo.com/" ,"comments":"Dev Community - DevDojo"},
+        {"msg":"Programming, Web Development, and DevOps news, tutorials and tools for beginners to experts. Hundreds of free publications, over 1M members, totally free.","href": "https://dzone.com/" ,"comments":"Programming, Web Development, and DevOps news, tutorials and tools for beginners to experts. Hundreds of free publications, over 1M members, totally free."}
       ]
     },
     {
