@@ -7,7 +7,6 @@
 //     height: 100%;
 // }
 
-
 // html,
 // body {
 //     height: 100%;
@@ -26,7 +25,6 @@
 //     height: 100%;
 // }
 
-
 // abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
 //     margin: 0;
 //     // padding: 0;
@@ -36,14 +34,18 @@
 //     vertical-align: baseline;
 // }
 
-
-
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 html, body {
     height: 100%;
     -webkit-font-smoothing: antialiased;
@@ -53,13 +55,18 @@ html, body {
     font-size: 100%;
     color: #2c3e50;
     vertical-align: baseline;
+=======
+html,
+body {
+  height: 100%;
+>>>>>>> 03c36bdc117897898ca71a923fa78c7550ed8aff
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    min-height: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
 
-    padding-bottom: 100px;
-    box-sizing: border-box;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 }

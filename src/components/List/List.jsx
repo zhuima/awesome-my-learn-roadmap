@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react'
 import ItemDetails from './ListDetails'
-import './List.scss'
+import './index.scss'
 
 const Items = ({ data }) => {
   const [active, setActive] = useState(0)
@@ -10,12 +10,12 @@ const Items = ({ data }) => {
   if (data) {
     return (
       <>
-        <div className="tabview">
+        <div className="nav">
           {data.map((domain, index) => {
             const { tit, content } = domain
             return (
               <div
-                className={`tab ${active === index ? 'active' : ''}`}
+                className={`nav-tab ${active === index ? 'active' : ''}`}
                 key={index}
                 accessKey={index}
                 onClick={() => {

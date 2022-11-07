@@ -1758,6 +1758,11 @@ react-refresh@^0.14.0:
   resolved "https://registry.npmmirror.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
 
+react-scroll-to-top@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/react-scroll-to-top/-/react-scroll-to-top-3.0.0.tgz#002984419d4d10fdb5654c9e3dd3341f81209a60"
+  integrity sha512-I/k45Ujai097du59tHBbzGxN7Lyc6K8Uc3IChq6HMXaBfB8N/rrfm055T5Yv0DWfVpf6pOFaBmhD3LOfH5unGw==
+
 react-spring@^9.4.5:
   version "9.5.2"
   resolved "https://registry.npmmirror.com/react-spring/-/react-spring-9.5.2.tgz#b9929ad2806e56e6408b27189ec9cdf1dc003873"
