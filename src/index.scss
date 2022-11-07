@@ -46,9 +46,12 @@
 
 html, body {
     height: 100%;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    // font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
     font: inherit;
     font-size: 100%;
+    color: #2c3e50;
     vertical-align: baseline;
 }
 
