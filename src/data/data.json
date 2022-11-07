@@ -348,5 +348,16 @@
         "comments": "web版 linux(终端[终端回放] 文件 脚本 进程)、数据库（mysql postgres）、redis(单机 哨兵 集群)、mongo统一管理操作平台."
       }
     ]
+  },
+  {
+    "tit": "书籍",
+    "content": [
+      {
+        "msg": "深入解析CSS",
+        "href": "https://weread.qq.com/web/bookDetail/7d53223071e219457d53617",
+        "comments": "高评分CSS书籍，一定能让你有所收获",
+        "type": "书籍"
+      }
+    ]
   }
 ]
