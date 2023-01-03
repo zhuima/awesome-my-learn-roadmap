@@ -9,7 +9,6 @@ const ItemDetails = ({ items }) => {
       {items.map((item, index) => {
         const { msg, href } = item;
         const random_bg_color = bgcolor();
-
         return (
           <div
             key={index}
@@ -26,4 +25,4 @@ const ItemDetails = ({ items }) => {
   );
 };
 
-export default ItemDetails;
+export default React.memo(ItemDetails);

@@ -38,4 +38,4 @@ const Items = ({ data }) => {
   }
 };
 
-export default Items;
+export default React.memo(Items);
