@@ -3,204 +3,76 @@
     "tit": "文档",
     "content": [
       {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
+        "msg": "best practices for react",
+        "href": "https://www.freecodecamp.org/news/best-practices-for-react/",
+        "comments": "best practices for react",
+        "type": "react"
       },
       {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
+        "msg": "Learn Go: The complete course",
+        "href": "https://kps.hashnode.dev/learn-go-the-complete-course",
+        "comments": "Learn Go: The complete course",
+        "type": "golang"
       },
       {
         "msg": "React Series Article",
         "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
+        "comments": "React Series Article",
+        "type": "react"
       },
       {
-        "msg": "A Guide for a Complete Project",
+        "msg": "A React Guide for a Complete Project",
         "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
+        "comments": "A Guide for a Complete Project",
+        "type": "react"
       },
       {
         "msg": "How to read local JSON files in React.js",
         "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
+        "comments": "How to read local JSON files in React.js",
+        "type": "react"
       },
       {
         "msg": "Build a Kubernetes Operator in 10 Minutes",
         "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
+        "comments": "",
+        "type": "k8s, kubernetes"
       },
       {
         "msg": "TailwindCSS 资源推荐",
         "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
+        "comments": "大多数都是直接复制粘贴的组件，推荐都看看",
+        "type": "tailwindcss"
       },
       {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
+        "msg": "300+ React Interview Questions ",
+        "href": "https://dev.to/sakhnyuk/300-react-interview-questions-2ko4",
+        "comments": "300+ React Interview Questions, 内容详尽，五星好评",
+        "type": "react"
       },
       {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
+        "msg": "React component guide: Class vs functional",
+        "href": "https://www.educative.io/blog/react-component-class-vs-functional",
+        "comments": "React component guide: Class vs functional",
+        "type": "react"
       },
       {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
+        "msg": "a complete guide to useeffect",
+        "href": "https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/",
+        "comments": "a complete guide to useeffect",
+        "type": "react"
       },
       {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
+        "msg": "Welcome to My First NFT | 五星推荐",
+        "href": "https://myfirstnft.info/",
+        "comments": "Welcome to My First NFT | 五星推荐",
+        "type": "nft,web3"
       },
       {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
-      },
-      {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
-      },
-      {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
-      },
-      {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
-      },
-      {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
-      },
-      {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
-      },
-      {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
-      },
-      {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
-      },
-      {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
-      },
-      {
-        "msg": "React Series Article",
-        "href": "https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications",
-        "comments": "React Series Article"
-      },
-      {
-        "msg": "A Guide for a Complete Project",
-        "href": "https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/",
-        "comments": "A Guide for a Complete Project"
-      },
-      {
-        "msg": "How to read local JSON files in React.js",
-        "href": "https://medium.com/officialrajdeepsingh/how-to-read-local-json-file-in-react-js-564125235fc7",
-        "comments": "How to read local JSON files in React.js"
-      },
-      {
-        "msg": "Build a Kubernetes Operator in 10 Minutes",
-        "href": "https://betterprogramming.pub/build-a-kubernetes-operator-in-10-minutes-11eec1492d30",
-        "comments": ""
-      },
-      {
-        "msg": "TailwindCSS 资源推荐",
-        "href": "https://mp.weixin.qq.com/s/eT5HYUD4wkgbXo0_gIdxWw",
-        "comments": "大多数都是直接复制粘贴的组件，推荐都看看"
+        "msg": "15 days of Web3 ｜ 五星推荐",
+        "href": "https://www.blocktrain.info/blog/15-days-of-web3",
+        "comments": "15 days of Web3 ｜ 五星推荐",
+        "type": "web3"
       }
     ]
   },
@@ -251,6 +123,46 @@
         "msg": " Learn to Code with Interactive Tutorials  ｜ 🌟🌟🌟🌟🌟",
         "href": "https://scrimba.com/",
         "comments": "Learn to Code with Interactive Tutorials - Scrimba.com"
+      },
+      {
+        "msg": "Educative: Interactive Courses for Software Developers",
+        "href": "https://www.educative.io/blog",
+        "comments": "Educative: Interactive Courses for Software Developers"
+      },
+      {
+        "msg": "Tutorials | DigitalOcean",
+        "href": "https://www.digitalocean.com/community/tutorials",
+        "comments": "Tutorials | DigitalOcean"
+      },
+      {
+        "msg": "BLOGS - CODING MASTER",
+        "href": "https://codingmasterweb.com/",
+        "comments": "BLOGS - CODING MASTER"
+      },
+      {
+        "msg": "daily.dev | Where developers grow together",
+        "href": "https://daily.dev/",
+        "comments": "daily.dev | Where developers grow together"
+      },
+      {
+        "msg": "Dev Community - DevDojo",
+        "href": "https://devdojo.com/",
+        "comments": "Dev Community - DevDojo"
+      },
+      {
+        "msg": "dzone.com",
+        "href": "https://dzone.com/",
+        "comments": "Programming, Web Development, and DevOps news, tutorials and tools for beginners to experts. Hundreds of free publications, over 1M members, totally free."
+      },
+      {
+        "msg": "medium.com",
+        "href": "https://medium.com/",
+        "comments": "medium.com."
+      },
+      {
+        "msg": "zerotomastery.io",
+        "href": "https://zerotomastery.io/",
+        "comments": "zerotomastery.io."
       }
     ]
   },
@@ -356,6 +268,12 @@
         "msg": "深入解析CSS",
         "href": "https://weread.qq.com/web/bookDetail/7d53223071e219457d53617",
         "comments": "高评分CSS书籍，一定能让你有所收获",
+        "type": "书籍"
+      },
+      {
+        "msg": "沧浪之水",
+        "href": "https://yd.qq.com/web/reader/7c632ef05a49197c62b53f0",
+        "comments": "《沧浪之水》在主人公池大为的心灵视域与生存空间这两个审视层面上，展示了20世纪末中国知识分子所面对的种种矛盾冲突和纠葛。小说批判了官本位文化的威力及权力崇拜的危害，揭穿了虚幻的真实，超出了一般官场小说的格局。",
         "type": "书籍"
       }
     ]
