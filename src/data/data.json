@@ -3,6 +3,12 @@
     "tit": "文档",
     "content": [
       {
+        "msg": "How to Learn React in 2023",
+        "href": "https://www.freecodecamp.org/news/how-to-learn-react-in-2023/",
+        "comments": "seven steps to learn react in 2023",
+        "type": "react"
+      },
+      {
         "msg": "best practices for react",
         "href": "https://www.freecodecamp.org/news/best-practices-for-react/",
         "comments": "best practices for react",
@@ -82,7 +88,7 @@
       {
         "msg": "Understanding TypeScript - 2022 Edition",
         "href": "https://www.udemy.com/course/understanding-typescript/",
-        "comments": ""
+        "comments": "Understanding TypeScript - 2022 Edition"
       },
       {
         "msg": "React JS Crash Course",

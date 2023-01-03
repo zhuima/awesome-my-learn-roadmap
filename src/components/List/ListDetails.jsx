@@ -16,18 +16,21 @@ const ItemDetails = ({ items }) => {
             key={index}
             className="item"
             style={{ background: random_bg_color }}
-            id={msg}
+            id={index}
           >
             <a href={href}>
               <i>{msg}</i>
             </a>
-
-            <ReactTooltip
-              anchorId={item.msg}
-              place="top"
-              variant="success"
-              content={item.comments}
-            />
+            {item?.comments ? (
+              <ReactTooltip
+                anchorId={index}
+                place="top"
+                variant="success"
+                content={item?.comments}
+              />
+            ) : (
+              ""
+            )}
           </div>
         );
       })}
