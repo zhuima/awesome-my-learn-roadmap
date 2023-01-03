@@ -24,7 +24,7 @@
   color: white;
   .item {
     flex: 1;
-    background: rgb(134, 134, 192);
+    // background: rgb(134, 134, 192);
     margin: 20px;
     height: 80px;
     width: calc((100% - 10px) / 6);
@@ -34,24 +34,24 @@
     display: grid;
     place-items: center;
     align-content: center;
-    &:nth-child(1) {
-      background: blue;
-    }
-    &:nth-child(2) {
-      background: red;
-    }
-    &:nth-child(3) {
-      background: pink;
-    }
-    &:nth-child(4) {
-      background: orange;
-    }
-    &:nth-child(5) {
-      background: rgb(213, 28, 173);
-    }
-    &:nth-child(6) {
-      background: rgb(13, 12, 13);
-    }
+    // &:nth-child(1) {
+    //   background: blue;
+    // }
+    // &:nth-child(2) {
+    //   background: red;
+    // }
+    // &:nth-child(3) {
+    //   background: pink;
+    // }
+    // &:nth-child(4) {
+    //   background: orange;
+    // }
+    // &:nth-child(5) {
+    //   background: rgb(213, 28, 173);
+    // }
+    // &:nth-child(6) {
+    //   background: rgb(13, 12, 13);
+    // }
     a {
       color: white;
       text-decoration: none;
