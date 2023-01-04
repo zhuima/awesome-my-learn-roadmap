@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+
+echo "进行代码格式化操作!"
 npm test
 npm run lint-staged
