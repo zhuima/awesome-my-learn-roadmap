@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "eslint:fix": "eslint . --fix",
     "prettier:fix": "prettier --write --ignore-unknown ./src",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
