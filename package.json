@@ -6,17 +6,17 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "eslint:fix": "eslint --quiet --fix",
-    "prettier:fix": "prettier --write --ignore-unknown",
-    "prepare": "husky install"
+    "lint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "prettier:fix": "prettier --write --ignore-unknown ./src",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx}": [
-      "eslint --quiet --fix"
+    "**/*.{js,jsx,ts,tsx}": [
+      "npm run eslint:fix"
     ],
-    "*.{json,js,ts,jsx,tsx,html}": [
-      "prettier --write --ignore-unknown"
-    ]
+    "**/*.{json,js,ts,jsx,tsx,html,css,md,scss}": "prettier --write ."
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,10 +39,12 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
     "vite": "^3.0.0"
   },

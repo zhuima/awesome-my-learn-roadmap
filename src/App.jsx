@@ -11,11 +11,7 @@ import '@/App.scss';
 function App() {
   const [index, setIndex] = useState(0);
   const [time, setTime] = useState(new Date().toLocaleString());
-  const TEXTS = [
-    '欢迎提交你认为的优质站点或文档',
-    '日常收集优质站点',
-    '期待你的参与',
-  ];
+  const TEXTS = ['欢迎提交你认为的优质站点或文档', '日常收集优质站点', '期待你的参与'];
 
   useEffect(() => {
     const intervalId = setInterval(
@@ -38,18 +34,18 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h6 className="header">
-        <img className="logo" src={rocket} alt="" data-v-37dfd6fc="" />
+    <div className='App'>
+      <h6 className='header'>
+        <img className='logo' src={rocket} alt='' data-v-37dfd6fc='' />
         <span>
-          <TextTransition springConfig={presets.slow} className="big" inline>
+          <TextTransition springConfig={presets.slow} className='big' inline>
             {TEXTS[index % TEXTS.length]}
           </TextTransition>
         </span>
-        <p className="Time">{time}</p>
+        <p className='Time'>{time}</p>
       </h6>
 
-      <div className="container">
+      <div className='container'>
         <Items data={data} />
         <ScrollToTop smooth />
         <Footer />

@@ -10,7 +10,7 @@ const Items = ({ data }) => {
   if (data) {
     return (
       <>
-        <div className="nav">
+        <div className='nav'>
           {data.map((domain, index) => {
             const { tit, content } = domain;
             return (
@@ -28,7 +28,7 @@ const Items = ({ data }) => {
             );
           })}
         </div>
-        <div className="items">
+        <div className='items'>
           <ItemDetails items={items} />
         </div>
       </>
