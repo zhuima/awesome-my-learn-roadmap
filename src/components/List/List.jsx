@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from "react";
-import ItemDetails from "@/components/List/ListDetails";
-import "@/components/List/index.scss";
+import React, { useState } from 'react';
+import ItemDetails from '@/components/List/ListDetails';
+import '@/components/List/index.scss';
 
 const Items = ({ data }) => {
   const [active, setActive] = useState(0);
@@ -15,7 +15,7 @@ const Items = ({ data }) => {
             const { tit, content } = domain;
             return (
               <div
-                className={`nav-tab ${active === index ? "active" : ""}`}
+                className={`nav-tab ${active === index ? 'active' : ''}`}
                 key={index}
                 accessKey={index}
                 onClick={() => {

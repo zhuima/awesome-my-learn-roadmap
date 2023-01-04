@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
-import ScrollToTop from "react-scroll-to-top";
+import React, { useState, useEffect } from 'react';
+import ScrollToTop from 'react-scroll-to-top';
 
-import rocket from "@/assets/rocket.svg";
-import TextTransition, { presets } from "react-text-transition";
-import data from "@/data/data.json";
-import Items from "@/components/List/List";
-import Footer from "@/components/Footer/Footer";
-import "@/App.scss";
+import rocket from '@/assets/rocket.svg';
+import TextTransition, { presets } from 'react-text-transition';
+import data from '@/data/data.json';
+import Items from '@/components/List/List';
+import Footer from '@/components/Footer/Footer';
+import '@/App.scss';
 
 function App() {
   const [index, setIndex] = useState(0);
   const [time, setTime] = useState(new Date().toLocaleString());
   const TEXTS = [
-    "欢迎提交你认为的优质站点或文档",
-    "日常收集优质站点",
-    "期待你的参与",
+    '欢迎提交你认为的优质站点或文档',
+    '日常收集优质站点',
+    '期待你的参与',
   ];
 
   useEffect(() => {

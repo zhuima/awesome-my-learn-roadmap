@@ -1,21 +1,21 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import { bgcolor } from "@/utils/bgcolor";
-import { Tooltip as ReactTooltip } from "react-tooltip";
+import React from 'react';
+import { bgcolor } from '@/utils/bgcolor';
+import { Tooltip as ReactTooltip } from 'react-tooltip';
 
-import "react-tooltip/dist/react-tooltip.css";
-import "@/components/List/index.scss";
+import 'react-tooltip/dist/react-tooltip.css';
+import '@/components/List/index.scss';
 const ItemDetails = ({ items }) => {
   return (
     <>
       {items.map((item, index) => {
         const { msg, href } = item;
-        const random_bg_color = bgcolor();
+        const randomColor = bgcolor();
         return (
           <div
             key={index}
             className="item"
-            style={{ background: random_bg_color }}
+            style={{ background: randomColor }}
             id={index}
           >
             <a href={href}>
@@ -29,7 +29,7 @@ const ItemDetails = ({ items }) => {
                 content={item?.comments}
               />
             ) : (
-              ""
+              ''
             )}
           </div>
         );
