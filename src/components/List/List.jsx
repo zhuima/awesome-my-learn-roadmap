@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import ItemDetails from "./ListDetails";
-import "./index.scss";
+import ItemDetails from "@/components/List/ListDetails";
+import "@/components/List/index.scss";
 
 const Items = ({ data }) => {
   const [active, setActive] = useState(0);

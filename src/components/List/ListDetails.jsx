@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { bgcolor } from "../../utils/bgcolor";
+import { bgcolor } from "@/utils/bgcolor";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
 import "react-tooltip/dist/react-tooltip.css";
-import "./index.scss";
+import "@/components/List/index.scss";
 const ItemDetails = ({ items }) => {
   return (
     <>
