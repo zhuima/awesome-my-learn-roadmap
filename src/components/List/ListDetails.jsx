@@ -3,7 +3,6 @@ import React from 'react';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 import { bgcolor } from '@/utils/bgcolor';
-
 import '@/components/List/index.scss';
 
 const ItemDetails = ({ items }) => {

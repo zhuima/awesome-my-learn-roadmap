@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "eslint:fix": "eslint . --fix --max-warnings 0",
     "prettier:fix": "prettier --write --ignore-unknown ./src",
-    "prepare": "cd .. && husky install awesome-my-learn-roadmap/.husky"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
