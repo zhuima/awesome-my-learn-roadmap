@@ -11,6 +11,7 @@ const ItemDetails = ({ items }) => {
       {items.map((item, index) => {
         const { msg, href } = item;
         const randomColor = bgcolor();
+
         return (
           <div
             key={index}
