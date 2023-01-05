@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ScrollToTop from 'react-scroll-to-top';
-
 import rocket from '@/assets/rocket.svg';
 import TextTransition, { presets } from 'react-text-transition';
 import data from '@/data/data.json';
