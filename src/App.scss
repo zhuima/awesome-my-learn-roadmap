@@ -1,23 +1,74 @@
+// .header {
+//   font-size: 24px;
+//   color: #333;
+//   text-align: left;
+//   height: 100px;
+//   padding: 0 20px;
+//   border-bottom: 1px solid #eee;
+//   line-height: 100px;
+//   vertical-align: middle;
+// }
+// .header img {
+//   vertical-align: middle;
+// }
+// .header span {
+//   font-size: 16px;
+//   border: 1px solid #565656ff;
+//   border-radius: 20px;
+//   vertical-align: middle;
+//   color: #4a4a4a;
+//   padding: 5px 10px;
+// }
+
+// .logo {
+//   // height-12 w-auto sm:h-12;
+//   height: 3rem !important;
+//   width: auto !important;
+//   max-width: 100%;
+// }
+
+// .Search {
+//   height: 100px;
+//   color: #999;
+//   float: right;
+//   text-align: right;
+// }
+
+
+// .Time {
+//   color: #999;
+//   float: right;
+//   text-align: right;
+// }
+
+
+
+
 .header {
-  font-size: 24px;
-  color: #333;
-  text-align: left;
-  height: 100px;
-  padding: 0 20px;
+  height: 100%;
+  /* allows both columns to span the full height of the browser window */
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
   border-bottom: 1px solid #eee;
-  line-height: 100px;
-  vertical-align: middle;
+  /* stacks the left and right headers above the bottom content */
 }
+
 .header img {
   vertical-align: middle;
 }
+
 .header span {
   font-size: 16px;
-  border: 1px solid #565656ff;
-  border-radius: 20px;
-  vertical-align: middle;
+
   color: #4a4a4a;
   padding: 5px 10px;
+}
+
+.scolltext{
+  border: 1px solid #565656ff;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 
 .logo {
@@ -27,7 +78,25 @@
   max-width: 100%;
 }
 
+.left {
+  flex-shrink: 0;
+  /* makes sure that content is not cut off in a smaller browser window */
+}
+
+.right {
+  flex-shrink: 0;
+  /* makes sure that content is not cut off in a smaller browser window */
+}
+
+.topright {
+  flex-shrink: 0;
+  display: flex;
+  align-items: baseline;
+  /* makes sure that content is not cut off in a smaller browser window */
+}
+
 .Time {
+  padding-left: 10px;
   color: #999;
   float: right;
   text-align: right;
