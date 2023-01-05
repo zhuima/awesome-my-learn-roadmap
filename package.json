@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "eslint:fix": "eslint . --fix --max-warnings 0",
     "prettier:fix": "prettier --write --ignore-unknown ./src",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
