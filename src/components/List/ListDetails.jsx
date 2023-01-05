@@ -2,9 +2,9 @@
 import React from 'react';
 import { bgcolor } from '@/utils/bgcolor';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
-
 import 'react-tooltip/dist/react-tooltip.css';
 import '@/components/List/index.scss';
+
 const ItemDetails = ({ items }) => {
   return (
     <>
