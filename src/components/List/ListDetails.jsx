@@ -6,8 +6,6 @@ import { bgcolor } from '@/utils/bgcolor';
 import '@/components/List/index.scss';
 
 const ItemDetails = ({ items }) => {
-  console.log(mnssddds);
-
   return (
     <>
       {items.map((item, index) => {
