@@ -1,8 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "node": true
+    "es2021": true
   },
   "overrides": [
     {
@@ -17,6 +16,9 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
       },
+      "plugins": [
+        "react"
+      ],
       "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
@@ -25,7 +27,19 @@
       ],
       "rules": {
         "react/react-in-jsx-scope": "off",
-        "react/prop-types": 0
+        "react/prop-types": 0,
+        "indent": [
+          "warn",
+          "tab"
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ],
+        "semi": [
+          "error",
+          "always"
+        ]
       }
     }
   ]
