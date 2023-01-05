@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "eslint:fix": "eslint . --fix",
+    "eslint:fix": "eslint . --fix --max-warnings 0",
     "prettier:fix": "prettier --write --ignore-unknown ./src",
     "prepare": "husky install"
   },
