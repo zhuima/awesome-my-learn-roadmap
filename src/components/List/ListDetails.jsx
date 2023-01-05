@@ -6,7 +6,7 @@ import { bgcolor } from '@/utils/bgcolor';
 import '@/components/List/index.scss';
 
 const ItemDetails = ({ items }) => {
-  console.log(mnsss);
+  console.log(mnssddds);
 
   return (
     <>
