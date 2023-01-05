@@ -7,4 +7,4 @@ echo "进行代码格式化操作!"
 # npm run lint-staged
 npx lint-staged
 
-# yarn eslint:fix
+# yarn eslint:fixnpx lint-staged

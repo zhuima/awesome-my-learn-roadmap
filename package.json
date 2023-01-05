@@ -11,16 +11,11 @@
     "prettier:fix": "prettier --write --ignore-unknown ./src",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "npm run eslint:fix"
     ],
-    "**/*.{json,js,ts,jsx,tsx,html,css,md,scss}": "npm run prettier:fix"
+    "*.{json,js,ts,jsx,tsx,html,css,md,scss}": "npm run prettier:fix"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -45,7 +40,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",

@@ -12,7 +12,12 @@ const ItemDetails = ({ items }) => {
         const { msg, href } = item;
         const randomColor = bgcolor();
         return (
-          <div key={index} className='item' style={{ background: randomColor }} id={index}>
+          <div
+            key={index}
+            className='item'
+            style={{ background: randomColor }}
+            id={index}
+          >
             <a href={href}>
               <i>{msg}</i>
             </a>

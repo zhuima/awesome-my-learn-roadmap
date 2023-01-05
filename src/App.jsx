@@ -11,7 +11,11 @@ import '@/App.scss';
 function App() {
   const [index, setIndex] = useState(0);
   const [time, setTime] = useState(new Date().toLocaleString());
-  const TEXTS = ['欢迎提交你认为的优质站点或文档', '日常收集优质站点', '期待你的参与'];
+  const TEXTS = [
+    '欢迎提交你认为的优质站点或文档',
+    '日常收集优质站点',
+    '期待你的参与',
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(
