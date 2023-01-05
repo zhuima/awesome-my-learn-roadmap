@@ -8,7 +8,8 @@ const Footer = () => (
     <div className='icons'>
       <a href='https://github.com/zhuima/awesome-my-learn-roadmap'>
         <AiFillGithub style={{ color: '#333333', fontSize: '30px' }} />
-      </a>{' '}
+      </a>
+      {' '}
       <a href='mailto:zhuima314@gmail.com'>
         <AiFillGoogleCircle style={{ color: '#dd4b39', fontSize: '30px' }} />
       </a>
