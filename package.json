@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "eslint:fix": "eslint . --fix",
     "prettier:fix": "prettier --write --ignore-unknown ./src",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -43,7 +42,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "4",
+    "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
     "vite": "^3.0.0"
