@@ -11,9 +11,6 @@
     "prettier:fix": "prettier --write --ignore-unknown ./src",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
